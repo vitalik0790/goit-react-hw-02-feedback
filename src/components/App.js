@@ -1,15 +1,12 @@
-import React from "react";
+import React from 'react'
+import Feedback from './feedback/Feedback';
 
-// slr  стрелка
-// rfc  так як Андрій робив
-// rafc  стрелка
 const App = () => {
     return (
-        <>
-            <h1>Hello world</h1>
-            <p> lorem sdgasgaer vtsvetvtvd gvfdgdg vdf</p>
-        </>
+        <div>
+            <Feedback />
+        </div>
     );
-};
+}
 
 export default App;
